@@ -2,27 +2,3 @@ git remote add origin https://github.com/YOUR_USERNAME/systems-collab.git
 git add .
 git commit -m "Initial commit"
 git push -u origin main
-{
-  "name": "systems-collab",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "14.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "8.56.0",
-    "eslint-config-next": "14.2.3"
-  }
-}
-npm install
-git add .
-git commit -m "Fix: Add Next.js to package.json"
-git push
